@@ -34,6 +34,7 @@ Tools-->Port--> (whatever it is)
  <h3>  Project Description and why I chose this project   </h3> 
 So this project was made after doing some brainstorming on how we can use Wifi and to a lesser extent, cell phone signals / hotspots to try and find family, friends, or loved ones who are nearby in the case of an emergency. The intent behind it is to lock onto a specific signal and the ESP8266 chip will emit an LED light that will change depending on how close or far you are from the destination. I chose this project because I feel that it has many real world applications in various fields. If someone is trapped underneath rubble, or underground etc. First responders can use a variation of this device to find people rapidly. According to the Pew Research group. <b><i> " Today, it is estimated that more than 5 billion people have mobile devices, and over half of these connections are smartphones. </b> </i> .  With that in mind I figured this can help someone who may be stuck along the way. 
 
+ 
 <h3> Challenges along the way </h3>
 <ul>
   <li>
@@ -43,5 +44,8 @@ So this project was made after doing some brainstorming on how we can use Wifi a
    <p> <li> Getting arduino to display the strength of my cell phone signal in the serial monitor. This challenge was simple once I figured out how to address it. The ESP8266 chip was transmitting serial data at a different baud rate. I had to adjust it in the serial monitor and my data became readable. <p> </li>  </ul>  
 
 <h3>  Check the repo for the Processing and Arduino codes. </h3>
+  Quick video of chip in action  https://www.youtube.com/watch?v=HBr487Z1CEE    
+
+
 
 
